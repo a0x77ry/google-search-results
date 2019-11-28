@@ -1,0 +1,283 @@
+/* General begin*/
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+
+header {
+    border-bottom: 1px solid #f2f2f2;    
+}
+
+/* Header > First Line*/
+
+/* Header > First Line > Logo */
+
+.logo {
+    display: inline-block;
+    padding: 25px 20px 25px 20px;
+    vertical-align: middle;
+}
+
+/* Header > First Line > Search Bar */
+
+.search-bar {
+    display: inline-block;
+    width: 640px;
+    border-radius: 24px;
+    border: 1px solid #f2f2f2;    
+    vertical-align: middle;
+}
+
+.search-bar a {
+    display: block;
+    float: right;
+}
+
+#mic-icon {
+    margin-top: 5px;
+}
+
+#mag-icon {
+    margin-right: 15px;
+}
+
+.search-bar input {
+    display: inline-block;
+    margin-left: 20px;
+    border: none;
+    line-height: 34px;
+    width: 530px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Header > First Line > Upper Right Menu */
+
+.upper-right-menu {
+    display: block;
+    margin: 20px 20px;    
+    float: right;
+}
+
+.upper-right-menu a {
+    margin-right: 10px;
+}
+
+/* Header > Second Line */
+
+.second-line {
+    display: block;
+    font-size: 13px;
+    margin-left: 130px;
+}
+
+#sl-delimiter {
+    margin-left: 140px;
+}
+
+.second-line li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.second-line li a{
+    color: #5f6368;
+    text-decoration: none;
+}
+
+.second-line li a img {
+    vertical-align: middle;
+    filter: brightness(1.25);
+}
+
+/* Main > Results Count */
+
+.results-count {
+    color: #70757a;
+    font-size: 14px;
+    margin: 15px 145px;
+}
+
+/* Main > Search Results > Normal */
+
+.sr-normal {
+    width: 600px;
+    /*height: 115px;*/
+    margin: 30px 145px;
+}
+
+.sr-item {
+    height: 115px;
+    margin-bottom: 20px;
+}
+
+.sr-normal-title {
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.sr-normal-title a {
+    color: rgb(26, 13, 171);
+    text-decoration: none;
+}
+
+.sr-normal-title a:hover {
+    text-decoration: underline;
+}
+
+.sr-normal-url {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 1px;
+}
+
+.sr-normal-url a{
+    color: #006621;
+    text-decoration: none;
+}
+
+.sr-normal-description {
+    font-size: 14px;
+    color: #545454;    
+    line-height: 1.57;
+}
+
+/* People also ask */
+
+.also-ask {
+    width: 638px;
+    height: 220px;
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.also-ask p {
+    color: #222;
+    font-size: 20px;
+    padding: 9px 16px;
+    line-height: 1.3;
+}
+
+.also-ask a {
+    display: block;
+    text-decoration: none;
+    color: #222;
+    padding-left: 16px;
+    border-top: 1px solid #e5e5e5;
+    cursor: pointer;
+    font-size: 16px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    line-height: 1.57;
+}
+
+#feedback p{
+    float: right;
+    color: #70757a;
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* Related Searches */
+
+.related-searches {
+    margin-left: 145px;
+}
+
+.related-title {
+    width: 600px;
+    height: 26px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.related-bottom-box {
+    display: inline-block;
+    width: 275px;
+    height: 104px;
+    font-size: 14px;
+    line-height: 25px;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+ 
+.related-bottom-box a {
+    color: #609;
+    text-decoration: none;    
+}
+
+/* Main > Main Footer */
+
+.main-footer {
+    width: 632px;
+    height: 56px;
+    font-size: 14px;
+    margin-left: 145px;
+    margin-bottom: 40px;
+}
+
+.main-footer-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.main-footer-logo img {
+    filter: brightness(1.15);
+}
+
+.main-footer-pages {
+    margin-left: auto;
+    margin-right: auto;
+    width: 54%;
+}
+
+.main-footer-pages a {
+    color: #4285f4;
+    text-decoration: none;
+    padding: 2px 3px;
+}
+
+#next {
+    margin-left: 60px;
+}
+
+/* Footer */
+
+footer {
+    font-size: 14px;
+    color: #5f6368;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 1101px;
+    border-top: 1px solid #e4e4e4;   
+}
+
+footer a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+footer .footer-top-left {
+    display: inline-block;
+    border-right: #e4e4e4 1px solid;
+    padding-right: 10px;
+    margin-left: 145px;
+}
+
+footer .footer-top-right {
+    display: inline-block;
+}
+
+footer .footer-bottom {
+    padding-left: 145px;
+    border-top: #e4e4e4 1px solid;    
+}
+
+footer .footer-bottom a {
+    padding-right: 20px;
+}
